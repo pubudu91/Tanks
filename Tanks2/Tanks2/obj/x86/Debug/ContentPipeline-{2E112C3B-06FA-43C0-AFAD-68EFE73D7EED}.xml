@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>coin.png</Source>
+      <Name>coin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\coin.xnb</Output>
+      <Time>2015-06-06T17:35:19.8047975+05:30</Time>
+    </Item>
+    <Item>
+      <Source>dirt.png</Source>
+      <Name>dirt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\dirt.xnb</Output>
+      <Time>2015-06-06T17:42:01.9928013+05:30</Time>
+    </Item>
+    <Item>
+      <Source>lifepack.png</Source>
+      <Name>lifepack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\lifepack.xnb</Output>
+      <Time>2015-06-06T17:35:19.8488+05:30</Time>
+    </Item>
+    <Item>
+      <Source>brick.png</Source>
+      <Name>brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick.xnb</Output>
+      <Time>2015-06-06T17:42:01.9738002+05:30</Time>
+    </Item>
+    <Item>
+      <Source>brick_100.png</Source>
+      <Name>brick_100</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_100.xnb</Output>
+      <Time>2015-06-06T17:42:01.9888011+05:30</Time>
+    </Item>
+    <Item>
+      <Source>brick_25.png</Source>
+      <Name>brick_25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_25.xnb</Output>
+      <Time>2015-06-06T17:42:01.9778004+05:30</Time>
+    </Item>
+    <Item>
+      <Source>brick_50.png</Source>
+      <Name>brick_50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_50.xnb</Output>
+      <Time>2015-06-06T17:42:01.9818007+05:30</Time>
+    </Item>
+    <Item>
+      <Source>brick_75.png</Source>
+      <Name>brick_75</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_75.xnb</Output>
+      <Time>2015-06-06T17:42:01.9858009+05:30</Time>
+    </Item>
+    <Item>
+      <Source>sand.png</Source>
+      <Name>sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\sand.xnb</Output>
+      <Time>2015-06-06T17:42:01.9968015+05:30</Time>
+    </Item>
+    <Item>
+      <Source>stone.png</Source>
+      <Name>stone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\stone.xnb</Output>
+      <Time>2015-06-06T17:42:02.0018018+05:30</Time>
+    </Item>
+    <Item>
+      <Source>water.png</Source>
+      <Name>water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\water.xnb</Output>
+      <Time>2015-06-06T17:42:02.005802+05:30</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{2E112C3B-06FA-43C0-AFAD-68EFE73D7EED}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-01-16T13:16:11.3585321+05:30</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
