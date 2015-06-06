@@ -90,6 +90,12 @@ namespace Managers
             }
         }
 
+        public void Draw()
+        {
+            foreach (Player p in players.Values)
+                p.Draw();
+        }
+
         public void printPlayers()
         {
             foreach (Player p in players.Values)

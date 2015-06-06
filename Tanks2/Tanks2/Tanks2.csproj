@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameEntities\BrickCell.cs" />
+    <Compile Include="GameEntities\Bullet.cs" />
     <Compile Include="GameEntities\Cell.cs" />
     <Compile Include="GameEntities\CoinPile.cs" />
     <Compile Include="GameEntities\DamageLevel.cs" />
@@ -82,7 +83,9 @@
     <Compile Include="GameEntities\LifePack.cs" />
     <Compile Include="GameEntities\Player.cs" />
     <Compile Include="GameEntities\Position.cs" />
+    <Compile Include="Managers\AIManager.cs" />
     <Compile Include="Managers\GameManager.cs" />
+    <Compile Include="Managers\ItemManager.cs" />
     <Compile Include="Managers\PlayerManager.cs" />
     <Compile Include="MessageParser.cs" />
     <Compile Include="NetworkListener.cs" />

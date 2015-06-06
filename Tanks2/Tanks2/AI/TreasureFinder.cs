@@ -10,7 +10,7 @@ namespace PathFinder
     public class TreasureFinder
     {
         //this method would return the coordinates of the nearest treasure. treasure can be either a coin pile or a life pack
-        public int[] FindNextTreasure(Cell current, Cell[,] grid, int treasure)
+        public static int[] FindNextTreasure(Cell current, Cell[,] grid, int treasure)
         {
             int[] variables = new int[4];
             variables[0] = current.x;

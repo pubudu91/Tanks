@@ -8,16 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\coin.xnb</Output>
-      <Time>2015-06-06T17:35:19.8047975+05:30</Time>
-    </Item>
-    <Item>
-      <Source>dirt.png</Source>
-      <Name>dirt</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\dirt.xnb</Output>
-      <Time>2015-06-06T17:42:01.9928013+05:30</Time>
+      <Time>2015-06-06T17:35:19+05:30</Time>
     </Item>
     <Item>
       <Source>lifepack.png</Source>
@@ -26,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\lifepack.xnb</Output>
-      <Time>2015-06-06T17:35:19.8488+05:30</Time>
+      <Time>2015-06-06T17:35:19+05:30</Time>
     </Item>
     <Item>
       <Source>brick.png</Source>
@@ -35,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick.xnb</Output>
-      <Time>2015-06-06T17:42:01.9738002+05:30</Time>
+      <Time>2015-06-06T17:42:01+05:30</Time>
     </Item>
     <Item>
       <Source>brick_100.png</Source>
@@ -44,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_100.xnb</Output>
-      <Time>2015-06-06T17:42:01.9888011+05:30</Time>
+      <Time>2015-06-06T17:42:01+05:30</Time>
     </Item>
     <Item>
       <Source>brick_25.png</Source>
@@ -53,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_25.xnb</Output>
-      <Time>2015-06-06T17:42:01.9778004+05:30</Time>
+      <Time>2015-06-06T17:42:01+05:30</Time>
     </Item>
     <Item>
       <Source>brick_50.png</Source>
@@ -62,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_50.xnb</Output>
-      <Time>2015-06-06T17:42:01.9818007+05:30</Time>
+      <Time>2015-06-06T17:42:01+05:30</Time>
     </Item>
     <Item>
       <Source>brick_75.png</Source>
@@ -71,7 +62,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_75.xnb</Output>
-      <Time>2015-06-06T17:42:01.9858009+05:30</Time>
+      <Time>2015-06-06T17:42:01+05:30</Time>
+    </Item>
+    <Item>
+      <Source>dirt.png</Source>
+      <Name>dirt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\dirt.xnb</Output>
+      <Time>2015-06-06T17:42:01+05:30</Time>
     </Item>
     <Item>
       <Source>sand.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\sand.xnb</Output>
-      <Time>2015-06-06T17:42:01.9968015+05:30</Time>
+      <Time>2015-06-06T17:42:01+05:30</Time>
     </Item>
     <Item>
       <Source>stone.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\stone.xnb</Output>
-      <Time>2015-06-06T17:42:02.0018018+05:30</Time>
+      <Time>2015-06-06T17:42:02+05:30</Time>
     </Item>
     <Item>
       <Source>water.png</Source>
@@ -98,7 +98,52 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\water.xnb</Output>
-      <Time>2015-06-06T17:42:02.005802+05:30</Time>
+      <Time>2015-06-06T17:42:02+05:30</Time>
+    </Item>
+    <Item>
+      <Source>tank1.png</Source>
+      <Name>tank1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank1.xnb</Output>
+      <Time>2015-06-06T23:57:33.9997413+05:30</Time>
+    </Item>
+    <Item>
+      <Source>tank3.png</Source>
+      <Name>tank3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank3.xnb</Output>
+      <Time>2015-06-06T23:17:23+05:30</Time>
+    </Item>
+    <Item>
+      <Source>tank2.png</Source>
+      <Name>tank2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank2.xnb</Output>
+      <Time>2015-06-06T23:17:36+05:30</Time>
+    </Item>
+    <Item>
+      <Source>tank4.png</Source>
+      <Name>tank4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank4.xnb</Output>
+      <Time>2015-06-06T23:17:36+05:30</Time>
+    </Item>
+    <Item>
+      <Source>tank0.png</Source>
+      <Name>tank0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank0.xnb</Output>
+      <Time>2015-06-07T00:05:26+05:30</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

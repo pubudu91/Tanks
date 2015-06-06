@@ -1,4 +1,3 @@
-C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\obj\x86\Debug\Tanks2.csprojResolveAssemblyReference.cache
 C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Tanks2.exe
 C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Tanks2.pdb
@@ -15,3 +14,9 @@ C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks
 C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_25.xnb
 C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_50.xnb
 C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\brick_75.xnb
+C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank1.xnb
+C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\obj\x86\Debug\Tanks2.csprojResolveAssemblyReference.cache
+C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank3.xnb
+C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank2.xnb
+C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank4.xnb
+C:\Users\Pubudu\Dropbox\CSE\Semester 4\Programming Challenge\Tanks2\Tanks2\Tanks2\bin\x86\Debug\Content\tank0.xnb

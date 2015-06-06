@@ -9,13 +9,13 @@ using GameEntity;
 namespace PathFinder
 {   
 
-    public class PathFinder
+    public class PathFind
     {
         List<Cell> openList;// The set of tentative nodes to be evaluated, initially containing the start node
         List<Cell> closedList;// The set of nodes already evaluated.
         private Grid grid;
 
-        public PathFinder()
+        public PathFind()
         {
             grid = Grid.getInstance();
         }

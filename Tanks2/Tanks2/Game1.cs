@@ -43,6 +43,7 @@ namespace Tanks2
             graphics.PreferredBackBufferWidth = 800;
             graphics.ApplyChanges();
             gmanager = GameManager.getInstance();
+            IsMouseVisible = true;
             base.Initialize();
         }
 
@@ -91,6 +92,7 @@ namespace Tanks2
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
+            Util.gameTime = gameTime;
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here

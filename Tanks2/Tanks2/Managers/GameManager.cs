@@ -15,6 +15,7 @@ namespace Managers
         private NetworkListener listener;
         private Grid grid;
         private PlayerManager playermanager;
+        private ItemManager itemmanager;
 
         private GameManager()
         {
@@ -22,6 +23,7 @@ namespace Managers
             listener = NetworkListener.GetInstance();
             grid = Grid.getInstance();
             playermanager = PlayerManager.getInstance();
+            itemmanager = ItemManager.getInstance();
 
             //Thread t = new Thread(new ThreadStart(parser.listenToKeyboard));
             //t.Start();
@@ -29,6 +31,7 @@ namespace Managers
             parser.GameInitiation += mp_initializeMap;
             parser.AcceptMessage += mp_initializePlayers;
             parser.GlobalBroadcast += mp_globalBroadcast;
+            parser.CoinPileAppeared += mp_coinPileAppeared;
         }
 
         public static GameManager getInstance()
@@ -48,6 +51,8 @@ namespace Managers
         public void draw()
         {
             grid.draw();
+            playermanager.Draw();
+            itemmanager.Draw();
         }
 
         private void mp_initializeMap(List<Position> bricks, List<Position> stone, List<Position> water, Player me)
@@ -68,6 +73,12 @@ namespace Managers
             playermanager.updatePlayers(players);
             grid.updateBrickDamages(brickdamage);
             playermanager.printPlayers();
+        }
+
+        public void mp_coinPileAppeared(Position pos, int lifetime, int value)
+        {
+            //Console.WriteLine("{ (" + pos.x + ", " + pos.y + ") : " + lifetime + " : " + value + " }");
+            itemmanager.addCoinPile(pos, lifetime, value);
         }
     }
 }

@@ -12,12 +12,14 @@ namespace Core
     public delegate void AcceptMessageHandler(List<string[]> players);
     public delegate void GameInitiationHandler(List<Position> bricks, List<Position> stone, List<Position> water, Player me);
     public delegate void GlobalBroadcastHandler(List<string[]> players, int[,] brickdamage);
+    public delegate void CoinPileHandler(Position pos, int lifetime, int value);
     
     public class MessageParser
     {
         public event GameInitiationHandler GameInitiation = delegate { };
         public event AcceptMessageHandler AcceptMessage = delegate { };
         public event GlobalBroadcastHandler GlobalBroadcast = delegate { };
+        public event CoinPileHandler CoinPileAppeared = delegate { };
 
         private NetworkListener listener;
 
@@ -113,7 +115,7 @@ namespace Core
                 case "I": decodeGameInitiation(s); break;
                 case "S": decodeAcceptMessage(s); break;
                 case "G": decodeGlobalBroadcast(s); break;
-                //case "C": decodeCoinPile(s); break;
+                case "C": decodeCoinPile(s); break;
                 //case "L": decodeLifePack(s); break;
                 //default: Console.WriteLine("ERROR: "+msg); break;
             }
@@ -202,9 +204,9 @@ namespace Core
             GlobalBroadcast(players, brickdamage);
         }
 
-        /*private void decodeCoinPile(string[] str)
+        private void decodeCoinPile(string[] str)
         {
-            if(coinpiles == null)
+            /*if(coinpiles == null)
                 coinpiles = new List<Position>();
 
             //long timestamp = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
@@ -220,12 +222,16 @@ namespace Core
             coins.lifetime = Int32.Parse(str[2]);
             coins.value = Int32.Parse(str[3]);
             coins.timestamp = timestamp;
-            // consider the possibility of using a stopwatch here
+            // consider the possibility of using a stopwatch here*/
+            string[] temp = str[1].Split(delim);
+            Position pos = new Position(Int32.Parse(temp[0]), Int32.Parse(temp[1]));
+            int lifetime = Int32.Parse(str[2]);
+            int value = Int32.Parse(str[3]);
 
-            coinpiles.Add(coins);
+            CoinPileAppeared(pos, lifetime, value);
         }
 
-        private void decodeLifePack(string[] str)
+        /*private void decodeLifePack(string[] str)
         {
             if (lifepacks == null)
                 lifepacks = new List();
