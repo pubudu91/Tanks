@@ -32,6 +32,7 @@ namespace Managers
             parser.AcceptMessage += mp_initializePlayers;
             parser.GlobalBroadcast += mp_globalBroadcast;
             parser.CoinPileAppeared += mp_coinPileAppeared;
+            parser.LifePackAppeared += mp_lifePackAppeared;
         }
 
         public static GameManager getInstance()
@@ -79,6 +80,12 @@ namespace Managers
         {
             //Console.WriteLine("{ (" + pos.x + ", " + pos.y + ") : " + lifetime + " : " + value + " }");
             itemmanager.addCoinPile(pos, lifetime, value);
+        }
+
+        public void mp_lifePackAppeared(Position pos, int lifetime)
+        {
+            //Console.WriteLine("{ (" + pos.x + ", " + pos.y + ") : " + lifetime + " : " + value + " }");
+            itemmanager.addLifePack(pos, lifetime);
         }
     }
 }

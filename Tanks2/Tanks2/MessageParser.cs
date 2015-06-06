@@ -13,6 +13,7 @@ namespace Core
     public delegate void GameInitiationHandler(List<Position> bricks, List<Position> stone, List<Position> water, Player me);
     public delegate void GlobalBroadcastHandler(List<string[]> players, int[,] brickdamage);
     public delegate void CoinPileHandler(Position pos, int lifetime, int value);
+    public delegate void LifePackHandler(Position pos, int lifetime);
     
     public class MessageParser
     {
@@ -20,6 +21,7 @@ namespace Core
         public event AcceptMessageHandler AcceptMessage = delegate { };
         public event GlobalBroadcastHandler GlobalBroadcast = delegate { };
         public event CoinPileHandler CoinPileAppeared = delegate { };
+        public event LifePackHandler LifePackAppeared = delegate { };
 
         private NetworkListener listener;
 
@@ -116,7 +118,7 @@ namespace Core
                 case "S": decodeAcceptMessage(s); break;
                 case "G": decodeGlobalBroadcast(s); break;
                 case "C": decodeCoinPile(s); break;
-                //case "L": decodeLifePack(s); break;
+                case "L": decodeLifePack(s); break;
                 //default: Console.WriteLine("ERROR: "+msg); break;
             }
         }
@@ -206,23 +208,6 @@ namespace Core
 
         private void decodeCoinPile(string[] str)
         {
-            /*if(coinpiles == null)
-                coinpiles = new List<Position>();
-
-            //long timestamp = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-            DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-            long timestamp = (long)(DateTime.UtcNow - epoch).TotalMilliseconds;
-
-            CoinPile coins = new CoinPile();
-
-            string[] temp = str[1].Split(delim);
-
-            coins.x = Int32.Parse(temp[0]);
-            coins.y = Int32.Parse(temp[1]);
-            coins.lifetime = Int32.Parse(str[2]);
-            coins.value = Int32.Parse(str[3]);
-            coins.timestamp = timestamp;
-            // consider the possibility of using a stopwatch here*/
             string[] temp = str[1].Split(delim);
             Position pos = new Position(Int32.Parse(temp[0]), Int32.Parse(temp[1]));
             int lifetime = Int32.Parse(str[2]);
@@ -231,9 +216,9 @@ namespace Core
             CoinPileAppeared(pos, lifetime, value);
         }
 
-        /*private void decodeLifePack(string[] str)
+        private void decodeLifePack(string[] str)
         {
-            if (lifepacks == null)
+            /*if (lifepacks == null)
                 lifepacks = new List();
 
             DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
@@ -248,10 +233,15 @@ namespace Core
             lifepack.lifetime = Int32.Parse(str[2]);
             lifepack.timestamp = timestamp;
 
-            lifepacks.Add(lifepack);
+            lifepacks.Add(lifepack);*/
+            string[] temp = str[1].Split(delim);
+            Position pos = new Position(Int32.Parse(temp[0]), Int32.Parse(temp[1]));
+            int lifetime = Int32.Parse(str[2]);
+
+            LifePackAppeared(pos, lifetime);
         }
 
-        private Direction getDirection(string str)
+        /*private Direction getDirection(string str)
         {
             switch (str)
             {

@@ -31,7 +31,7 @@ namespace GameEntity
                 life = value;
                 timer = new Timer(life);
                 timer.AutoReset = false;
-                timer.Elapsed += (sender, e) => ItemManager.coinpileExpired(this, null);
+                timer.Elapsed += (sender, e) => ItemManager.coinpileExpired(this);
                 timer.Enabled = true;
             }
         }

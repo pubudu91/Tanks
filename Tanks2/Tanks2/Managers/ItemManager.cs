@@ -41,6 +41,16 @@ namespace Managers
             coins.Add(temp);
         }
 
+        public void addLifePack(Position pos, int lifetime)
+        {
+            LifePack temp = new LifePack();
+            temp.x = pos.x;
+            temp.y = pos.y;
+            temp.lifetime = lifetime;
+
+            lifepack.Add(temp);
+        }
+
         public void Draw()
         {
             foreach (CoinPile cp in coins)
@@ -50,10 +60,14 @@ namespace Managers
                 lp.Draw();
         }
 
-        public static void coinpileExpired(object source, ElapsedEventArgs e)
+        public static void coinpileExpired(CoinPile cp)
         {
-            CoinPile temp = (CoinPile)source;
-            coins.Remove(temp);
+            coins.Remove(cp);
+        }
+
+        public static void lifePackExpired(LifePack life)
+        {
+            lifepack.Remove(life);
         }
     }
 }
